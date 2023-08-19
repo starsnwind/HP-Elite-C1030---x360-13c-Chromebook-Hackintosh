@@ -1,6 +1,6 @@
 # HP Elite C1030 / x360 13c Chromebook Hackintosh
  <!-- About achieving the perfect hackintosh on the HP Elite C1030/x360 13c Chromebook models. -->
- 在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果。没时间写详细安装教程，简单说下思路，首先解锁刷bios（这个自行参考[chromebook研究院](http://120.79.199.53/)相关教程），
+ 在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果。没时间写详细安装教程，简单说下思路，首先解锁刷bios（这个自行参考[Chromebook研究院](http://120.79.199.53/)相关教程），
  然后U盘写入MacOS镜像安装包,[点击此处下载](https://pan.starsnwind.com/t/u1eLSO)。最后把EFI放入硬盘ESP分区，进行安装完成。
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html)。
 
@@ -9,6 +9,9 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  概况
+| 关于本机1 | 关于本机2 |
+|------------|-------------|
+|<img src="Resources/screenshot1.png" width="960">|<img src="Resources/screenshot2.png" width="960">|
 ### MacOS版本(最新支持)：MacOS Sonoma (14) Beta5 及全版本兼容
 ### OpenCore版本(最新支持)：OpenCore 0.9.5
 ### CoreBoot版本(最新支持)：BIOS 4.20.1
