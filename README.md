@@ -1,6 +1,7 @@
 # HP Elite C1030 / x360 13c Chromebook Hackintosh
  <!-- About achieving the perfect hackintosh on the HP Elite C1030/x360 13c Chromebook models. -->
- 在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果
+ 在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果。没时间写详细安装教程，简单说下思路，首先解锁刷bios（这个自行参考chromebook研究院相关教程），
+ 然后U盘写入MacOS镜像安装包，把EFI放入硬盘ESP分区，进行安装完成。具体操作可参照黑果小兵。
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
  ### 交流群：112526282
