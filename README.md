@@ -1,11 +1,11 @@
 # HP Elite C1030 / x360 13c Chromebook Hackintosh
  <!-- About achieving the perfect hackintosh on the HP Elite C1030/x360 13c Chromebook models. -->
  在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果。没时间写详细安装教程，简单说下思路，首先解锁刷bios（这个自行参考[Chromebook研究院](http://120.79.199.53?_blank)相关教程），
- 然后U盘写入MacOS镜像安装包,[点击此处下载](https://pan.starsnwind.com/t/u1eLSO)。最后把EFI放入硬盘ESP分区，进行安装完成。
+ 然后U盘用工具Etcher写入MacOS镜像安装包,[点击此处下载](https://pan.starsnwind.com/t/u1eLSO)。最后把EFI放入硬盘ESP分区，进行安装完成。
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html?_blank)。
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
- ### 加入交流群：<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9YB2qnvcV8FmUcbwUdcN8gbmXPIAN8Rx&jump_from=webapi&authKey=UjdWQ0PVRv6OghQ69LT2wyokUfvKdFAQ7575jFsKyIIWYiQbYxIqxe+TUg2PKKQ1"><img border="3" src="Resources/group.png" alt="112526282" title="112526282"></a>
+ ### 加入交流群：112526282 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9YB2qnvcV8FmUcbwUdcN8gbmXPIAN8Rx&jump_from=webapi&authKey=UjdWQ0PVRv6OghQ69LT2wyokUfvKdFAQ7575jFsKyIIWYiQbYxIqxe+TUg2PKKQ1"><img border="3" src="Resources/group.png" alt="112526282" title="112526282"></a>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  概况
