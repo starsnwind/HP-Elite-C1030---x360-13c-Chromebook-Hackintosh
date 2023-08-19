@@ -5,7 +5,7 @@
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html?_blank)。
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
- ### 交流群：<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9YB2qnvcV8FmUcbwUdcN8gbmXPIAN8Rx&jump_from=webapi&authKey=UjdWQ0PVRv6OghQ69LT2wyokUfvKdFAQ7575jFsKyIIWYiQbYxIqxe+TUg2PKKQ1"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="黑苹果MAC/IOS交流群" title="黑苹果MAC/IOS交流群"></a>
+ ### 交流群：<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9YB2qnvcV8FmUcbwUdcN8gbmXPIAN8Rx&jump_from=webapi&authKey=UjdWQ0PVRv6OghQ69LT2wyokUfvKdFAQ7575jFsKyIIWYiQbYxIqxe+TUg2PKKQ1"><img border="0" src="Resources/group.png" alt="112526282" title="112526282"></a>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  概况
