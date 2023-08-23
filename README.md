@@ -15,7 +15,7 @@
 |------------|-------------|
 |<img src="Resources/screenshot2.png" width="960">|<img src="Resources/screenshot3.png" width="960">| -->
 
-### MacOS版本(最新支持)：MacOS Sonoma (14) Beta5 及全版本兼容
+### MacOS版本(最新支持)：MacOS Sonoma (14) Beta6 及全版本兼容
 ### OpenCore版本(最新支持)：OpenCore 0.9.5
 ### CoreBoot版本(最新支持)：BIOS 4.20.1
 
