@@ -591,12 +591,12 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
-                    <key>#AAPL,slot-name</key>
-                    <string>Internal@0,2,0</string>
+                    <key>#AAPL00,override-no-connect</key>
+                    <data>AP///////wAw5GMGAAAAAAAeAQSlHBN4B+yFo1RMmyYOUFQAAAABAQEBAQEBAQEBAQEBAQEBNUCAoHAAJVAwIDoAHb4QAAAZziqAoHAAJVAwIDoAHb4QAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAMJv8UPMgKCRbIAAAAAA0=</data>
                     <key>AAPL,ig-platform-id</key>
                     <data>AAClPg==</data>
-                    <key>AAPL00,override-no-connect</key>
-                    <data>AP///////wAw5GMGAAAAAAAeAQSlHBN4B+yFo1RMmyYOUFQAAAABAQEBAQEBAQEBAQEBAQEBNUCAoHAAJVAwIDoAHb4QAAAZziqAoHAAJVAwIDoAHb4QAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAMJv8UPMgKCRbIAAAAAA0=</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,2,0</string>
                     <key>device-id</key>
                     <data>pT4AAA==</data>
                     <key>device_type</key>
@@ -1048,7 +1048,7 @@
                     <key>BundlePath</key>
                     <string>VoodooRMI.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.5</string>
+                    <string>V1.4.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1215,24 +1215,6 @@
                     <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/VoodooI2CHID</string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
-                    <string>VoodooSMBus.kext</string>
-                    <key>Comment</key>
-                    <string>V3.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/VoodooSMBus</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -2412,6 +2394,8 @@
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
                 <key>ResizeUsePciRbIo</key>
+                <false/>
+                <key>ShimRetainProtocol</key>
                 <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
