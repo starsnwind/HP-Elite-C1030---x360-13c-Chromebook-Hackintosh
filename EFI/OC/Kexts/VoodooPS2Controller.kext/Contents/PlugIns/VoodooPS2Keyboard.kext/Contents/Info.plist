@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G531</string>
+	<string>19H2026</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Keyboard</string>
 	<key>CFBundleGetInfoString</key>
@@ -29,19 +29,19 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>13F100</string>
+	<string>12D4e</string>
 	<key>DTPlatformName</key>
 	<string>macosx</string>
 	<key>DTPlatformVersion</key>
-	<string>12.3</string>
+	<string>11.1</string>
 	<key>DTSDKBuild</key>
-	<string>21E226</string>
+	<string>20C63</string>
 	<key>DTSDKName</key>
-	<string>macosx12.3</string>
+	<string>macosx11.1</string>
 	<key>DTXcode</key>
-	<string>1341</string>
+	<string>1240</string>
 	<key>DTXcodeBuild</key>
-	<string>13F100</string>
+	<string>12D4e</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>ApplePS2Keyboard</key>
@@ -290,16 +290,6 @@
 						<string>;Items must be strings in the form of scanfrom=scanto (in hex)</string>
 						<string>e027=0;disable discrete fnkeys toggle</string>
 						<string>e028=0;disable discrete trackpad toggle</string>
-						<string>3b=e010;F1 to Previous Track</string>
-						<string>3c=e019;F2 to Next Track</string>
-						<string>3d=e022;F3 to PlayPause</string>
-						<string>;F4 to Full Screen - Map this in Sys Prefs - Keyboard - Shortcuts - App Shortcuts</string>
-						<string>;F5 to Mission Control - Map this is Sys Prefs - Keyboard - Shortcuts</string>
-						<string>40=e005;F6 to Display Brightness Down</string>
-						<string>41=e006;F7 to Display Brightness Up</string>
-						<string>42=e020;F8 to Mute</string>
-						<string>43=e02e;F9 to VolDown</string>
-						<string>44=e030;F10 to VolUp</string>
 					</array>
 					<key>HIDF12EjectDelay</key>
 					<integer>250</integer>
@@ -604,6 +594,31 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>VoodooPS2HIDEventDriver</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>as.acidanthera.voodoo.driver.PS2Keyboard</string>
+			<key>DeviceUsagePairs</key>
+			<array>
+				<dict>
+					<key>DeviceUsage</key>
+					<integer>1</integer>
+					<key>DeviceUsagePage</key>
+					<integer>12</integer>
+				</dict>
+			</array>
+			<key>IOClass</key>
+			<string>VoodooPS2KeyboardHIDEventDriver</string>
+			<key>IOProbeScore</key>
+			<integer>8000</integer>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>Transport</key>
+				<string>PS2</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOHIDInterface</string>
+		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.11</string>
@@ -611,6 +626,8 @@
 	<dict>
 		<key>as.acidanthera.voodoo.driver.PS2Controller</key>
 		<string>2.3.6</string>
+		<key>com.apple.iokit.IOACPIFamily</key>
+		<string>1.0.0d1</string>
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>1.0.0b1</string>
 		<key>com.apple.kpi.bsd</key>
