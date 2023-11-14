@@ -17,9 +17,9 @@
 |------------|-------------|
 |<img src="Resources/img1.png" width="960">|<img src="Resources/img2.jpg" width="960">|
 
-### MacOS版本(最新支持)：MacOS Sonoma (14.1) （推荐14正式版，低版本自行更换wifi驱动）
-### OpenCore版本(最新支持)：OpenCore 0.9.6
-### CoreBoot版本(最新支持)：BIOS 4.21
+### MacOS版本(最新支持)：MacOS Sonoma (14.2.2) （推荐14正式版，低版本自行更换wifi驱动）
+### OpenCore版本(最新支持)：OpenCore 0.9.7
+### CoreBoot版本(最新支持)：BIOS 4.21.1
 
 ### 基本硬件信息：
 #### 惠普 Elite C1030/x360 13c Chromebook （JinLon）       
@@ -51,7 +51,7 @@
 | 触控板              | 正常                  | 点按、手势相关功能都正常使用，可在设置触控屏进行偏好设置                                                      | 
 | 触摸屏              | 正常                  | 已正常驱动，使用体验还是挺不错的                                                         | 
 | 核显                | 正常                 | 已定制最佳缓冲帧和显卡4G显存，激活H264和HEVC硬件加速，4K、HDR真彩流畅播放                                      |
-| NVME固态硬盘         | 正常                 | 实测更换西数SN740固态后可直接免驱使用，可去掉`NVMeFix.kext`驱动，保证供电建议保留                                  |    
+| NVME固态硬盘         | 正常                 | 实测更换西数SN740固态后可直接免驱使用，可去掉`NVMeFix.kext`驱动，保证供电校正建议保留                                  |    
 | HDMI/DP显示器       | 正常                  | 使用TypeC转DP或HDMI可正常连接4k显示器                                                                   |
 | HDMI音频            | 正常                 | 正常使用，配合使用TypeC转DP或HDMI连接显示器， 显示器无外放可连音响                                            |                                      
 | USB端口             | 正常                 | 已完美定制USB驱动和内建控制器，端口、蓝牙正常使用                                                            |
