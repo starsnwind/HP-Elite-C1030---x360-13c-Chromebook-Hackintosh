@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>21G651</string>
+	<string>21G726</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -45,7 +45,7 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.1Revenger1.ChultraSOF</string>
 			<key>IOClass</key>
-			<string>ChultraSofCml</string>
+			<string>IntelHdaDspCml</string>
 			<key>IOPCIMatch</key>
 			<string>0x02c88086 0x06c88086 0xa3f08086</string>
 			<key>IOProbeScore</key>
@@ -55,7 +55,7 @@
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
-	<string>13.3</string>
+	<string>10.15</string>
 	<key>NSHumanReadableCopyright</key>
 	<string></string>
 	<key>OSBundleLibraries</key>

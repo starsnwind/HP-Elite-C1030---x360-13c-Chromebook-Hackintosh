@@ -1,7 +1,7 @@
 # HP Elite C1030 / x360 13c Chromebook Hackintosh
  <!-- About achieving the perfect hackintosh on the HP Elite C1030/x360 13c Chromebook models. -->
- 在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果。没时间写详细安装教程，简单说下思路，首先解锁刷bios（这个自行参考[Chromebook研究院](http://120.79.199.53?_blank)相关教程），目前统一使用macOS定制版BIOS，可以在BIOS文件目录里面下载，或者使用脚本`cd; curl -LO ethanthesleepy.one/macos/firmware-util.sh && sudo bash firmware-util.sh
-`。
+ 在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果。没时间写详细安装教程，简单说下思路，首先解锁刷bios（这个自行参考[Chromebook研究院](http://120.79.199.53?_blank)相关教程），目前统一官方Mrchromebox的定制BIOS，使用脚本`cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`
+。另外也可以使用使用macOS定制版BIOS，使用脚本`cd; curl -LO ethanthesleepy.one/macos/firmware-util.sh && sudo bash firmware-util.sh。相关rom固件可以在BIOS文件目录里面下载。`。
  然后U盘用工具Etcher写入MacOS镜像安装包,[点击此处下载](https://pan.baidu.com/s/1rGgZaoxMyyI9a_P2qx_HOw?pwd=3ry8)。最后把EFI放入硬盘ESP分区，进行安装完成。
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html?_blank)。
 
@@ -17,7 +17,7 @@
 |------------|-------------|
 |<img src="Resources/img1.png" width="960">|<img src="Resources/img2.jpg" width="960">|
 
-### MacOS版本(最新支持)：MacOS Sonoma (14.2.2) （推荐14正式版，低版本自行更换wifi驱动）
+### MacOS版本(最新支持)：MacOS Sonoma (14.2.3) （推荐14正式版，低版本自行更换wifi驱动）
 ### OpenCore版本(最新支持)：OpenCore 0.9.7
 ### CoreBoot版本(最新支持)：BIOS 4.21.1
 
@@ -44,7 +44,7 @@
 | 风扇                | 正常                 | 风扇传感器驱动研究中，监测及可调节。                                                                      |
 | 无线网络             | 正常                 | 连接稳定，连接wifi6速度正常，旧版自行更换旧版的无线网卡驱动[AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)                                                                            |
 | 蓝牙                | 正常                 | 蓝牙5.2设备连接正常、稳定，AirPods系列耳机自带功能正常                                                      |
-| 睡眠                | 正常                 | 睡眠质量不错，正常唤醒，可自行定义hibernatemode，推荐0或3                                                   |
+| 睡眠                | 正常                 | 睡眠质量不错，刷最新BIOS固件正常唤醒，可自行定义hibernatemode，推荐0或3                                                   |
 | 键盘                | 正常                 | 美式标准按键，除Command位置不同和部分功能快捷键其他按键正常，可自行改键                                         | 
 | 键盘背光             | 正常                 | 已经完美驱动，可6级调节，调节可以在设置→键盘，取消暗光自动可调出自感应模式。快捷键：`1.F8/F9` `2.Alt(目前为CMD键) + 亮度+(F6) 或 亮度- (F7) `                                                                |           
 | 功能快捷键           | 正常                 | 全正常使用，完整功能完美重新映射，泰酷辣！                                                     |
