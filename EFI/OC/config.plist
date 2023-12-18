@@ -10,7 +10,7 @@
                     <key>Comment</key>
                     <string>SSDT-PLUG-ALT.aml</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-PLUG-ALT.aml</string>
                 </dict>
@@ -471,12 +471,12 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
+                    <key>#AAPL,slot-name</key>
+                    <string>Internal@0,2,0</string>
                     <key>#AAPL00,override-no-connect</key>
                     <data>AP///////wAw5GMGAAAAAAAeAQSlHBN4B+yFo1RMmyYOUFQAAAABAQEBAQEBAQEBAQEBAQEBNUCAoHAAJVAwIDoAHb4QAAAZziqAoHAAJVAwIDoAHb4QAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAMJv8UPMgKCRbIAAAAAA0=</data>
                     <key>AAPL,ig-platform-id</key>
                     <data>AAClPg==</data>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,2,0</string>
                     <key>device-id</key>
                     <data>pT4AAA==</data>
                     <key>device_type</key>
@@ -1356,7 +1356,7 @@
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
-                <true/>
+                <false/>
                 <key>AppleXcpmCfgLock</key>
                 <true/>
                 <key>AppleXcpmExtraMsrs</key>
@@ -1396,7 +1396,7 @@
                 <key>ProvideCurrentCpuInfo</key>
                 <false/>
                 <key>SetApfsTrimTimeout</key>
-                <integer>-1</integer>
+                <integer>0</integer>
                 <key>ThirdPartyDrives</key>
                 <false/>
                 <key>XhciPortLimit</key>
