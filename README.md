@@ -17,9 +17,9 @@
 |------------|-------------|
 |<img src="Resources/img1.png" width="960">|<img src="Resources/img2.jpg" width="960">|
 
-### MacOS版本(最新支持)：MacOS Sonoma (14.3.1) （推荐14，低版本自行更换wifi驱动）
+### MacOS版本(最新支持)：MacOS Sonoma (14.3 beta2) （推荐14，低版本自行更换wifi驱动）
 ### OpenCore版本(最新支持)：OpenCore 0.9.8
-### CoreBoot版本(最新支持)：BIOS 4.21.1
+### CoreBoot版本(最新支持)：BIOS 4.22
 
 ### 基本硬件信息：
 #### 惠普 Elite C1030/x360 13c Chromebook （JinLon）       
