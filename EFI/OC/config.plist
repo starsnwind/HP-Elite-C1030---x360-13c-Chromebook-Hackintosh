@@ -8,14 +8,6 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-PLUG-ALT.aml</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Path</key>
-                    <string>SSDT-PLUG-ALT.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>SSDT-PLUG-4200.aml</string>
                     <key>Enabled</key>
                     <true/>
@@ -77,14 +69,6 @@
                     <true/>
                     <key>Path</key>
                     <string>SSDT-SDXC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SSDT-USB-Reset.aml</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-USB-Reset.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -658,7 +642,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.8.8 | AppleALC.kext</string>
+                    <string>V1.8.9 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1441,7 +1425,7 @@
                 <key>PickerMode</key>
                 <string>External</string>
                 <key>PickerVariant</key>
-                <string>Acidanthera\Chardonnay</string>
+                <string>GreySimpleRond</string>
                 <key>PollAppleHotKeys</key>
                 <false/>
                 <key>ShowPicker</key>
