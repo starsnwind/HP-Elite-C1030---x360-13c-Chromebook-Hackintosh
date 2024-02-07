@@ -17,8 +17,8 @@
 |------------|-------------|
 |<img src="Resources/img1.png" width="960">|<img src="Resources/img2.jpg" width="960">|
 
-### MacOS版本(最新支持)：MacOS Sonoma (14.3正式版) （推荐14.3，13及旧版自行更换wifi驱动）
-### OpenCore版本(最新支持)：OpenCore 0.9.8
+### MacOS版本(最新支持)：MacOS Sonoma (14.4b2) （推荐14，旧版自行更换wifi驱动）
+### OpenCore版本(最新支持)：OpenCore 0.9.9
 ### CoreBoot版本(最新支持)：BIOS 4.22.2
 
 ### 基本硬件信息：
