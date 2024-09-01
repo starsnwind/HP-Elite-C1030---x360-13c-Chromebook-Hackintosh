@@ -17,7 +17,8 @@
 |------------|-------------|
 |<img src="Resources/img1.png" width="960">|<img src="Resources/img2.jpg" width="960">|
 
-### MacOS版本(最新支持)：MacOS Sonoma (14.5)（推荐14.5，旧版自行更换wifi驱动）
+### MacOS版本(最新支持)：MacOS Sonoma (14.7)（推荐14.7，旧版自行更换wifi驱动）
+#### 目前MacOS 15.0 AirportItlwm.kext驱动暂未适配
 ### OpenCore版本(最新支持)：OpenCore 1.0.0
 ### CoreBoot版本(最新支持)：BIOS 4.22.4
 
