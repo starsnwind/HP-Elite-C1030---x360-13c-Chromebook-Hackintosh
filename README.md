@@ -6,7 +6,7 @@
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html?_blank)。
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
- ### 加入交流群：112526282 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9YB2qnvcV8FmUcbwUdcN8gbmXPIAN8Rx&jump_from=webapi&authKey=UjdWQ0PVRv6OghQ69LT2wyokUfvKdFAQ7575jFsKyIIWYiQbYxIqxe+TUg2PKKQ1"><img border="3" src="Resources/group.png" alt="112526282" title="112526282"></a>
+ ### 加入我的技术交流群：112526282 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9YB2qnvcV8FmUcbwUdcN8gbmXPIAN8Rx&jump_from=webapi&authKey=UjdWQ0PVRv6OghQ69LT2wyokUfvKdFAQ7575jFsKyIIWYiQbYxIqxe+TUg2PKKQ1"><img border="3" src="Resources/group.png" alt="112526282" title="112526282"></a>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  概况
@@ -17,10 +17,10 @@
 |------------|-------------|
 |<img src="Resources/img1.png" width="960">|<img src="Resources/img2.jpg" width="960">|
 
-### MacOS版本(最新支持)：MacOS Sonoma (14.7.2)（推荐14.7，旧版自行更换wifi驱动）
-#### 目前MacOS 15.0 AirportItlwm.kext驱动暂未适配
+### MacOS版本(最新支持)：MacOS Sonoma (14.7.2)（推荐此版，旧版自行更换wifi驱动）
+#### 目前MacOS 15.0 AirportItlwm.kext驱动暂未适配，需要的可以打oclp补丁食用
 ### OpenCore版本(最新支持)：OpenCore 1.0.3
-### CoreBoot版本(最新支持)：BIOS 2405（新版本命名）
+### CoreBoot版本(最新支持)：BIOS 2408.1
 
 ### 基本硬件信息：
 #### 惠普 Elite C1030/x360 13c Chromebook （JinLon）       
