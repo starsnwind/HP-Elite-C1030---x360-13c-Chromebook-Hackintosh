@@ -2,7 +2,7 @@
  <!-- About achieving the perfect hackintosh on the HP Elite C1030/x360 13c Chromebook models. -->
  在HP Elite C1030/x360 13c Chromebook机型上实现黑苹果。没时间写详细安装教程，简单说下思路，首先解锁刷bios（这个自行参考[Chromebook研究院](http://120.79.199.53?_blank)相关教程），目前统一官方Mrchromebox的定制BIOS，使用脚本`cd; curl -LO mrchromebox.tech/firmware-util.sh && sudo bash firmware-util.sh`
 。另外也可以使用使用macOS定制版BIOS，使用脚本`cd; curl -LO ethanthesleepy.one/macos/firmware-util.sh && sudo bash firmware-util.sh。相关rom固件可以在BIOS文件目录里面下载。`。
- 然后U盘用工具Etcher写入MacOS镜像安装包,[点击此处下载](https://pan.baidu.com/s/1rGgZaoxMyyI9a_P2qx_HOw?pwd=3ry8)。最后把EFI放入硬盘ESP分区，进行安装完成。
+ 然后U盘用工具Etcher写入MacOS镜像安装包,[点击此处下载](https://pan.baidu.com/share/init?surl=dzp0cPs5X7bG_TBLew3bog&pwd=d7k2)。最后把EFI放入硬盘ESP分区，进行安装完成。
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html?_blank)。
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
