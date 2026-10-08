@@ -6,7 +6,7 @@
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html?_blank)。
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
- ### 加入C1030黑果定制维护QQ群：815789492 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9xn_F-aG7qn87vLyfQvorXRMsbvq75DX&jump_from=webapi&authKey=6YYOZhtdI8Su/haoQj6C/y4K6M3soqdecN4+PlhhcVRjnMCKaL1lhs3OBhXVDmwl"><img border="0" src="/Resources/group.png" alt="HP C1030 黑果定制群" title="HP C1030 黑果定制群"></a>
+ ### 加入C1030黑果定制维护QQ群：1121966477 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9xn_F-aG7qn87vLyfQvorXRMsbvq75DX&jump_from=webapi&authKey=6YYOZhtdI8Su/haoQj6C/y4K6M3soqdecN4+PlhhcVRjnMCKaL1lhs3OBhXVDmwl"><img border="0" src="/Resources/group.png" alt="HP C1030 黑果定制群" title="HP C1030 黑果定制群"></a>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  概况
