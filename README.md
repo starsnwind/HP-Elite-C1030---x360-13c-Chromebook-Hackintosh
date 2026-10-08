@@ -19,7 +19,7 @@
 
 ### MacOS版本(最新支持)：MacOS Sonoma (14.8.9)（推荐此版无线蓝牙完美）
 #### 目前MacOS 15-26 因AirportItlwm.kext驱动暂未适配，需要的可以打oclp补丁食用
-### OpenCore版本(最新支持)：OpenCore 1.0.8
+### OpenCore版本(最新支持)：OpenCore 1.0.9
 ### CoreBoot版本(最新支持)：BIOS 2512.0（推荐，新版问题多不建议）
 
 ### 基本硬件信息：
