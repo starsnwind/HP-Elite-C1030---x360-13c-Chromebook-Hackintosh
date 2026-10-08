@@ -6,7 +6,7 @@
  MacOS安装的具体操作可参照[黑果小兵](https://blog.daliansky.net/Intel-NUC9-Hackintosh-and-macOS-Sonoma-Installation-Tutorial.html?_blank)。
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
- ### 加入辰风的技术交流QQ群：112526282 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9YB2qnvcV8FmUcbwUdcN8gbmXPIAN8Rx&jump_from=webapi&authKey=UjdWQ0PVRv6OghQ69LT2wyokUfvKdFAQ7575jFsKyIIWYiQbYxIqxe+TUg2PKKQ1"><img border="3" src="Resources/group.png" alt="112526282" title="112526282"></a>
+ ### 加入C1030黑果定制维护QQ群：815789492 <a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=9xn_F-aG7qn87vLyfQvorXRMsbvq75DX&jump_from=webapi&authKey=6YYOZhtdI8Su/haoQj6C/y4K6M3soqdecN4+PlhhcVRjnMCKaL1lhs3OBhXVDmwl"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="HP C1030 黑果定制群" title="HP C1030 黑果定制群"></a>
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ##  概况
@@ -20,7 +20,7 @@
 ### MacOS版本(最新支持)：MacOS Sonoma (14.8.6)（推荐此版无线蓝牙完美）
 #### 目前MacOS 15-26.5 因AirportItlwm.kext驱动暂未适配，需要的可以打oclp补丁食用
 ### OpenCore版本(最新支持)：OpenCore 1.0.8
-### CoreBoot版本(最新支持)：BIOS 2512.2（旧版也行，没必要更）
+### CoreBoot版本(最新支持)：BIOS 2512.0（推荐）
 
 ### 基本硬件信息：
 #### 惠普 Elite C1030/x360 13c Chromebook （JinLon）       
@@ -62,7 +62,7 @@
 | HDPI                | 正常                | 因为1080p原生不支持，可以用`BetterDisplay`等HDPI软件来强开，并且会修复logo不一致问题，推荐1920x1280分辨率或者1600x1066                                                                      |
 | 内置外放             | 正常               | 原生声卡已正常驱动，需配合脚本激活，魔改的USB螃蟹声卡驱动也已集成EFI中。或推荐使用蓝牙音响或耳机平替                                                              |
 | 3.5mm耳机接口        | 外接               | 可外接USB声卡，免驱                                                                              |
-| 内置麦克风           | 外接               | 可外接USB声卡，免驱                                                                              |
+| 内置麦克风           | 外接               | 原生内置麦克风已正常驱动                                                                              |
 | SD卡                | 禁用               | 目前暂时无法驱动，已禁用以节省电量                                                                     |
 | 指纹                | 禁用               | 目前暂时无法驱动，已禁用以节省电量                                                                       |
 ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -93,5 +93,5 @@
 4.HP c1030商业版（LTE版）慎入，目前发现问题较多</p>
 5.macOS13及之前版本自行更换无线网卡驱动</p>
 6.未经允许禁止转载使用商业化，免费开源，需要注明出处！</p>
-最后更新：2026-04-06
+最后更新：2026-10-08
 ---------------------------------------------------------------------------------------------------------------------------------------------------
